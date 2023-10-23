@@ -1,0 +1,11 @@
+.about_section {
+    padding: 60px 0px;
+}
+.about_section img {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+.about_content {
+    padding: 0px 45px;
+}

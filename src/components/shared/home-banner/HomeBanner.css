@@ -2,7 +2,10 @@
 	position: relative;
 }
 .home_banner .carousel-inner .carousel-item {
-    background-color: #f2f6f7;
+    /* background-color: #f2f6f7; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .home_banner .carousel-caption {
     position: relative;
@@ -15,24 +18,27 @@
     text-align: left;
 }
 .home_banner .carousel-caption .row {
-    padding: 60px 0px 110px;
+    padding: 220px 0px 220px;
 }
 .banner_content {
     padding-right: 200px;
 }
-.banner_content h3 {
+.banner_content h3, .banner_content h4 {
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.banner_content h3 span, .banner_content h4 span {
     font-size: 50px;
     line-height: 60px;
     margin-bottom: 20px;
     font-weight: 800;
+    color: #e5007e;
 }
 .banner_content p {
-    padding-left: 30px;
     color: #5c727d;
-    border-left: 1px solid #576466;
-}
-.banner_content .site_btn {
-    margin-top: 30px;
+    margin-bottom: 0px;
 }
 .home_banner .carousel-control-next, .home_banner .carousel-control-prev {
     position: absolute;

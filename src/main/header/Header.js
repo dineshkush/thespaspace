@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import "./Header.css";
 import Logo from "../../logo.png";
 
-function Header() {
+function Header(props) {
+
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
@@ -28,23 +29,35 @@ function Header() {
             <div className="col-lg-6">
               <div className="top_bar_contact">
                 <ul>
-                  <li className="address">
-                    <i class="fa-solid fa-location-dot"></i> Sector 14 Main Rd,
-                    DLF Colony, Sector 14, Gurugram
+                  <li className="phone">
+                    <i class="fa-solid fa-phone"></i> <a href={`tel:${props.phone}`}>{props.phone}</a>
                   </li>
+                  <li className="email">
+                <i class="fa-solid fa-envelope"></i> <a href={`mailto:${props.email}`}>{props.email}</a>
+                </li>
                 </ul>
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="top_bar_contact justify-content-end d-flex">
+              
+            <div className="header_social_media">
                 <ul>
-                  <li className="phone">
-                    <i class="fa-solid fa-phone"></i> <a href="tel:09990748347">09990748347</a>
+                  <li>
+                    <a
+                      href={props.facebook}
+                      title="Facebook"
+                    >
+                      <i className="fab fa-facebook-f"></i>
+                    </a>
                   </li>
-                  {/* <li className="email">
-                <i class="fa-solid fa-envelope"></i> Sector 14 Main Rd,
-                  DLF Colony, Sector 14, Gurugram
-                </li> */}
+                  <li>
+                    <a
+                      href={props.instagram}
+                      title="Instagram"
+                    >
+                      <i className="fab fa-instagram"></i>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>

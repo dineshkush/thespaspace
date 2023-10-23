@@ -52,7 +52,7 @@ function HomeBanner() {
                           Best Place <span>For you</span>
                         </h4>
                         <h3>
-                          <span>Harbal</span> Treatment
+                          <span>Beauty & </span> Relaxation
                         </h3>
                         <p>
                           Welcome to beauty lab, where you can relax and enjoy
@@ -76,10 +76,10 @@ function HomeBanner() {
                     <div className="col-lg-7">
                       <div className="banner_content">
                         <h4>
-                          Best Place <span>For you</span>
+                        Beauty <span> Means</span>
                         </h4>
                         <h3>
-                          <span>Harbal</span> Treatment
+                          <span>Healthy</span> You
                         </h3>
                         <p>
                           Welcome to beauty lab, where you can relax and enjoy

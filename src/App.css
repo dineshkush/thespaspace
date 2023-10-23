@@ -4,13 +4,13 @@
 
 *, body, p, li {
   font-size: 16px;
-  color: #5c727d;
+  color: #555;
   font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Tangerine', cursive;
-  color: #071c1f;
+  /* font-family: 'Tangerine', cursive; */
+  color: #3f3e3e;
 }
 
 a {
@@ -37,4 +37,40 @@ h5 {
   font-size: 20px;
   line-height: 30px;
   font-weight: 800;
+}
+.site_title {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.site_title h2 {
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 45px;
+}
+.site_title h2 span {
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 45px;
+  color: #e5007e;
+}
+.site_title:before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: #3f3e3e;
+  position: absolute;
+  bottom: 0;
+  border-radius: 50%;
+  left: 0;
+}
+
+.site_title:after {
+  content: "";
+  width: 100px;
+  height: 5px;
+  background-color: #e5007e;
+  position: absolute;
+  bottom: 1.5px;
+  left: 15px;
 }
