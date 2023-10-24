@@ -7,7 +7,7 @@ import slide3 from "../../../images/slide3.jpg";
 function HomeBanner() {
   return (
     <>
-      <section className="home_banner">
+      <section className="home_banner" id="Home">
         <div id="carouselExampleCaptions" className="carousel slide">
           <div className="carousel-inner">
             <div

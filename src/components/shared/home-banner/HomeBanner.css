@@ -14,7 +14,7 @@
     left: 0;
     padding-top: 0;
     padding-bottom: 0;
-    color: #071c1f;
+    color: #3f3e3e;
     text-align: left;
 }
 .home_banner .carousel-caption .row {
@@ -51,12 +51,11 @@
     width: 40px !important;
     height: 40px;
     padding: 0;
-    color: #071c1f !important;
+    color: #3f3e3e !important;
     text-align: center;
     background: 0 0;
     border: 0;
     opacity: 1 !important;
-    border: 1px solid #071c1f;
     transition: opacity .15s ease;
 }
 .home_banner .carousel-control-prev {
@@ -67,8 +66,8 @@
 }
 .home_banner .carousel-control-next i, .home_banner .carousel-control-prev i {
     font-size: 25px;
-    color: #071c1f;
+    color: #3f3e3e;
 }
 .home_banner .carousel-indicators [data-bs-target] {
-    background-color: #071c1f;
+    background-color: #3f3e3e;
 }

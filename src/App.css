@@ -56,11 +56,12 @@ h5 {
 }
 .site_title:before {
   content: "";
-  width: 8px;
-  height: 8px;
+	border: 4px solid #fff;
+	width: 17px;
+	height: 17px;
+	bottom: -4px;
   background-color: #3f3e3e;
   position: absolute;
-  bottom: 0;
   border-radius: 50%;
   left: 0;
 }
@@ -72,7 +73,7 @@ h5 {
   background-color: #e5007e;
   position: absolute;
   bottom: 1.5px;
-  left: 15px;
+  left: 18px;
 }
 
 .site_title.text-center::before {

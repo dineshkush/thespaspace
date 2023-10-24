@@ -1,0 +1,67 @@
+.conatct_sec {
+    padding: 90px 0px;
+}
+.conntact_row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: #ec5598;
+    margin-top: 20px;
+}
+.conntact_row .contact_left {
+	padding: 0px 40px;
+}
+.conntact_row .contact_item {
+	display: flex;
+    margin-bottom: 25px;
+    align-content: center;
+}
+.conntact_row .contact_item .icon {
+	width: 60px;
+	height: 60px;
+	filter: brightness(0) invert(1);
+	text-align: center;
+	flex: 0 0 auto;
+}
+.conntact_row .contact_item .icon img {
+	width: 50px;
+}
+.conntact_row .contact_item .contact_details {
+	padding-left: 20px;
+}
+.conntact_row .contact_item .contact_details h4 {
+	color: #fff;
+	margin-bottom: 0px;
+}
+.conntact_row .contact_item .contact_details p, .conntact_row .contact_item .contact_details p a {
+	color: #fff;
+	margin-bottom: 0px;
+}
+.conntact_row .contact_right {
+	padding: 0pc;
+	margin-bottom: -8px;
+}
+
+.Opening_hours h3 {
+	margin-bottom: 10px;
+    color: #fff;
+}
+.Opening_hours ul {
+	margin-bottom: 0px;
+}
+.list-unstyled {
+	padding-left: 0;
+	list-style: none;
+}
+.Opening_hours ul li {
+	padding-bottom: 5px;
+    color: #fff;
+}
+.Opening_hours ul li span {
+	display: inline-block;
+	font-weight: 700;
+    color: #fff;
+}
+.pull-right {
+	float: right;
+}

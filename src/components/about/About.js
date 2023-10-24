@@ -6,7 +6,7 @@ import AboutImg from "../../images/about-img.png";
 function About() {
   return (
     <>
-      <section className="about_section" id="about-us">
+      <section className="about_section" id="About">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">

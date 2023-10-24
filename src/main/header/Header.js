@@ -10,12 +10,17 @@ function Header(props) {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
-  const scrollToSection = (sectionId) => {
+  const scrollToSection = (sectionId, offset) => {
     // Find the target section by its ID
     const targetSection = document.getElementById(sectionId);
     if (targetSection) {
-      // Scroll to the target section
-      targetSection.scrollIntoView({ behavior: "smooth" });
+      // Calculate the offset
+    const offsetValue = offset || 0; // Default to 0 if offset is not provided
+
+    // Calculate the target scroll position
+    const targetScrollPosition = targetSection.offsetTop - offsetValue;
+    // Scroll to the target section with the specified offset
+    window.scrollTo({ top: targetScrollPosition, behavior: "smooth" });
     }
     // Close the mobile menu after clicking a menu item
     setIsMobileMenuOpen(false);
@@ -109,7 +114,7 @@ function Header(props) {
                       <li className="nav-item">
                         <p
                           className="nav-link"
-                          onClick={() => scrollToSection("home")}
+                          onClick={() => scrollToSection("Home", 120)}
                         >
                           Home
                         </p>
@@ -117,7 +122,7 @@ function Header(props) {
                       <li className="nav-item">
                         <p
                           className="nav-link"
-                          onClick={() => scrollToSection("about-us")}
+                          onClick={() => scrollToSection("About", 50)}
                         >
                           About
                         </p>
@@ -125,7 +130,7 @@ function Header(props) {
                       <li className="nav-item">
                         <p
                           className="nav-link"
-                          onClick={() => scrollToSection("services")}
+                          onClick={() => scrollToSection("Services", 50)}
                         >
                           Services
                         </p>
@@ -133,7 +138,7 @@ function Header(props) {
                       <li className="nav-item">
                         <p
                           className="nav-link"
-                          onClick={() => scrollToSection("gallery")}
+                          onClick={() => scrollToSection("Gallery", 50)}
                         >
                           Gallery
                         </p>
@@ -141,7 +146,7 @@ function Header(props) {
                       <li className="nav-item">
                         <p
                           className="nav-link"
-                          onClick={() => scrollToSection("contact")}
+                          onClick={() => scrollToSection("Contact", 50)}
                         >
                           Contact
                         </p>

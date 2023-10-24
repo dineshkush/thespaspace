@@ -1,25 +1,18 @@
 import React from "react";
-import "./Services.css";
-import ServicesBg from "../../images/bg-2.jpg";
-import ServicesItems from "../shared/services-item/ServicesItems";
+import "./Gallery.css";
+// import ServiceImg1 from "../../images/service1.jpg";
 
-function Services() {
+function Gallery() {
 
   return (
     <>
-      <section
-        className="services_sec"
-        style={{
-          backgroundImage: `url(${ServicesBg})`,
-        }}
-        id="Services"
-      >
+      <section className="gallery_sec" id="Gallery">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
               <div className="site_title text-center">
                 <h3>
-                  <span>Services</span> For You
+                  <span>Our</span> Gallery
                 </h3>
               </div>
               <p className="text-center">
@@ -32,9 +25,9 @@ function Services() {
             </div>
           </div>
 
-          <div className="row mt-4">
+          <div className="row">
             <div className="col-lg-12">
-              <ServicesItems />
+              
             </div>
           </div>
         </div>
@@ -43,4 +36,4 @@ function Services() {
   );
 }
 
-export default Services;
+export default Gallery;
