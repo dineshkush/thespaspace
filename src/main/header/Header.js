@@ -146,6 +146,14 @@ function Header(props) {
                       <li className="nav-item">
                         <p
                           className="nav-link"
+                          onClick={() => scrollToSection("Testimonials", 50)}
+                        >
+                          Testimonials
+                        </p>
+                      </li>
+                      <li className="nav-item">
+                        <p
+                          className="nav-link"
                           onClick={() => scrollToSection("Contact", 50)}
                         >
                           Contact

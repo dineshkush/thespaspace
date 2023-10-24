@@ -23,11 +23,7 @@ function Services() {
                 </h3>
               </div>
               <p className="text-center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                hendrerit elit turpis, a porttitor tellus sollicitudin at. Class
-                aptent
-                <br /> taciti sociosqu ad litora torquent per conubia nostra,
-                per inceptos himenaeos.
+              Discover the epitome of relaxation with our luxurious spa services. Unwind and rejuvenate as <br />we pamper you with a range of treatments designed to elevate your well-being.
               </p>
             </div>
           </div>

@@ -16,11 +16,7 @@ function Gallery() {
                 </h3>
               </div>
               <p className="text-center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                hendrerit elit turpis, a porttitor tellus sollicitudin at. Class
-                aptent
-                <br /> taciti sociosqu ad litora torquent per conubia nostra,
-                per inceptos himenaeos.
+              A Visual Journey of Elegance and Beauty. Immerse yourself in the captivating visuals that tell the story of our exceptional services and tranquil ambiance. Each image is a testament to the care, skill, and attention to detail we pour into every client experience.
               </p>
             </div>
           </div>

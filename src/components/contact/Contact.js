@@ -17,11 +17,7 @@ function Contact({phone, email, address}) {
                 </h3>
               </div>
               <p className="text-center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                hendrerit elit turpis, a porttitor tellus sollicitudin at. Class
-                aptent
-                <br /> taciti sociosqu ad litora torquent per conubia nostra,
-                per inceptos himenaeos.
+              Your Gateway to Reach Us. Contact us with ease to discover more about our services, book an appointment, or inquire about any queries you may have. We're here to assist you and look forward to connecting with you.
               </p>
             </div>
           </div>

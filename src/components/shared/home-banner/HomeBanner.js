@@ -28,8 +28,7 @@ function HomeBanner() {
                           <span>Harbal</span> Treatment
                         </h3>
                         <p>
-                          Welcome to beauty lab, where you can relax and enjoy
-                          life. A little peace in a crazy world goes a long way.
+                        Step into Beauty Lab, your tranquil escape from the chaos of daily life. Here, a touch of serenity can make a world of difference.
                         </p>
                       </div>
                     </div>
@@ -55,8 +54,7 @@ function HomeBanner() {
                           <span>Beauty & </span> Relaxation
                         </h3>
                         <p>
-                          Welcome to beauty lab, where you can relax and enjoy
-                          life. A little peace in a crazy world goes a long way.
+                        Step into Beauty Lab, your tranquil escape from the chaos of daily life. Here, a touch of serenity can make a world of difference.
                         </p>
                       </div>
                     </div>
@@ -82,8 +80,7 @@ function HomeBanner() {
                           <span>Healthy</span> You
                         </h3>
                         <p>
-                          Welcome to beauty lab, where you can relax and enjoy
-                          life. A little peace in a crazy world goes a long way.
+                        Step into Beauty Lab, your tranquil escape from the chaos of daily life. Here, a touch of serenity can make a world of difference.
                         </p>
                       </div>
                     </div>

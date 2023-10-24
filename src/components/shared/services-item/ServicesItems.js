@@ -18,35 +18,35 @@ function ServicesItems() {
       image: ServiceImg1,
       title: "Body Massage Centres",
       description:
-        "Rejuvinate your body through the wide range of massages provided by our staff in our body massage centres.",
+        "Revitalize, Rebalance, Relax – Your Journey to Wellness Begins at Our Body Massage Centers.",
     },
     {
       id: 2,
       image: ServiceImg1,
       title: "Beauty Spas",
       description:
-        "We have a wide range of beauty spa packages for you at the best price to energiser your body.",
+        "Indulge, Unwind, Glow. Our Beauty Spas are Your Haven of Tranquility, Where Well-being and Beauty Intertwine",
     },
     {
       id: 3,
       image: ServiceImg1,
       title: "Massage Centres For Men",
       description:
-        "Pamper yourself through a wide varieties of massages on offer in our massage centres for men.",
+        "Men's Oasis: Elevate Well-being at Our Massage Centers, Where Rest and Revitalization Define the Experience.",
     },
     {
       id: 4,
       image: ServiceImg1,
       title: "Neck and shoulder",
       description:
-        "A massage of your choice to give you a world class spa experience with comfort & personalised attention.",
+        "Relief in Reach: Targeted Neck and Shoulder Massage for Tension Release and Soothing Relaxation.",
     },
     {
       id: 5,
       image: ServiceImg1,
       title: "Hands & Feet",
       description:
-        "Hands & Feet care strives to give you the relaxation that help you momentarily forget about the hassles.",
+        "Pamper Your Hands and Feet: Indulgent Treatments for Ultimate Relaxation and Rejuvenation. Discover Bliss Today.",
     },
     // Add more service items as needed
   ];

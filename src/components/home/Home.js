@@ -4,6 +4,7 @@ import About from '../about/About'
 import Services from '../services/Services'
 import Gallery from '../gallery/Gallery'
 import Contact from '../contact/Contact'
+import Testimonials from '../testimonials/Testimonials'
 
 function Home({phone, email, address}) { 
 
@@ -13,6 +14,7 @@ function Home({phone, email, address}) {
       <About />
       <Services />
       <Gallery />
+      <Testimonials />
       <Contact phone={phone} email={email} address={address} />
     </div>
   )
