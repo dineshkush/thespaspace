@@ -9,3 +9,9 @@
 .about_content {
     padding: 0px 45px;
 }
+
+@media (max-width: 480px) {
+    .about_content {
+        padding: 0px 0px;
+    }
+}

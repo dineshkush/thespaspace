@@ -16,7 +16,7 @@ function HomeBanner() {
                 backgroundImage: `url(${slide1})`,
               }}
             >
-              <div className="carousel-caption d-none d-md-block">
+              <div className="carousel-caption">
                 <div className="container">
                   <div className="row align-items-center">
                     <div className="col-lg-7">

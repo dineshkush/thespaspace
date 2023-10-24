@@ -91,3 +91,38 @@ h5 {
 	right: 0;
 	margin: 0 auto;
 }
+
+
+@media (max-width: 480px) {
+  *, body, p, li {
+    font-size: 12px;
+    line-height: 17px;
+  }
+  .mobile-hide {
+    display: none;
+  }
+  .site_title h2, .site_title h3 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .site_title h2 span, .site_title h3 span {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .site_title::before {
+    width: 13px;
+    height: 13px;
+    bottom: -4px;
+  }
+  .site_title::after {
+    height: 2px;
+    bottom: 1.5px;
+    left: 15px;
+  }
+  .site_title.text-center::before {
+    border: 2px solid #fff;
+    width: 9px;
+    height: 9px;
+    bottom: -2px;
+  }
+}

@@ -98,7 +98,7 @@ function Header(props) {
                 >
                   <div className="offcanvas-header">
                     <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
-                      Offcanvas Menu
+                      The Spa Space
                     </h5>
                     <button
                       type="button"

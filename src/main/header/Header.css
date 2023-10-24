@@ -94,3 +94,13 @@
 .nav_header ul.navbar-nav li.nav-item {
     margin: 0px 10px;
 }
+
+
+@media (max-width: 480px) {
+    .top_header {
+        display: none;
+    }
+    .header_area a.navbar-brand h1 {
+        display: none;
+    }
+}

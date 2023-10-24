@@ -9,10 +9,10 @@ function About() {
       <section className="about_section" id="About">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-6">
+            <div className="col-lg-6 mobile-hide">
               <img src={AboutImg} alt="Spa Center" className="img-fluid" />
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-12">
               <div className="about_content">
                 <div className="site_title">
                   <h2>
