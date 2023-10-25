@@ -9,7 +9,7 @@
     margin-top: 20px;
 }
 .conntact_row .contact_left {
-	padding: 0px 40px;
+	padding: 0px 20px;
 }
 .conntact_row .contact_item {
 	display: flex;
@@ -30,16 +30,20 @@
 	padding-left: 20px;
 }
 .conntact_row .contact_item .contact_details h4 {
-	color: #fff;
-	margin-bottom: 0px;
+    color: #fff;
+    margin-bottom: 0px;
+    font-size: 18px;
 }
 .conntact_row .contact_item .contact_details p, .conntact_row .contact_item .contact_details p a {
 	color: #fff;
-	margin-bottom: 0px;
+	margin-bottom: 15px;
 }
 .conntact_row .contact_right {
 	padding: 0pc;
 	margin-bottom: -8px;
+}
+.contact-map iframe {
+    height: 750px !important;
 }
 
 .Opening_hours h3 {

@@ -4,7 +4,7 @@ import LocationIcon from "../../images/location-icon.png";
 import PhoneIcon from "../../images/phone-icon.png";
 import EmailIcon from "../../images/email-icon.png";
 
-function Contact({phone, email, address}) {
+function Contact({phone, email, address, addressLink, addressSecond, addressSecondLink, addressThird, addressThirdLink}) {
   return (
     <>
       <section className="conatct_sec" id="Contact">
@@ -35,7 +35,9 @@ function Contact({phone, email, address}) {
                   </div>
                   <div className="contact_details">
                     <h4>Address</h4>
-                    <p>{address}</p>
+                    <p><a href={addressLink} target="_blank" without rel="noreferrer">{address}</a></p>
+                    <p><a href={addressSecondLink} target="_blank" without rel="noreferrer">{addressSecond}</a></p>
+                    <p><a href={addressThirdLink} target="_blank" without rel="noreferrer">{addressThird}</a></p>
                   </div>
                 </div>
 
@@ -82,7 +84,7 @@ function Contact({phone, email, address}) {
                 <iframe
                   title="Google Maps"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.1970032259464!2d77.0476443!3d28.4736132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1961c508d423%3A0x749843233181e023!2sThe%20Spa%20Space!5e0!3m2!1sen!2sin!4v1698148617706!5m2!1sen!2sin"
-                  style={{ width: "100%", height: "520px", border: "0" }}
+                  style={{ width: "100%", border: "0" }}
                   allowfullscreen=""
                   loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"

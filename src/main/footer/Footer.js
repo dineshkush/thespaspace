@@ -1,8 +1,11 @@
 import React from "react";
 import "./Footer.css"
+import Whatsapp from "../../components/shared/whatsapp/Whatsapp";
 
-function Footer() {
+function Footer({phone}) {
   return (
+    <>
+    <Whatsapp phone={phone} />
     <div className="footer_bottom">
       <div className="container">
         <div className="row">
@@ -14,6 +17,7 @@ function Footer() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
