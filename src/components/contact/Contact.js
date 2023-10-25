@@ -64,14 +64,14 @@ function Contact({phone, email, address}) {
                   <ul className="list-unstyled">
                     <li>
                       Monday - Friday{" "}
-                      <span className="pull-right">9.00 - 5.00 Pm</span>
+                      <span className="pull-right">9.00 Am - 9.00 Pm</span>
                     </li>
                     <li>
                       Saturday{" "}
-                      <span className="pull-right">9.00 - 2.00 Pm</span>
+                      <span className="pull-right">9.00 Am - 9.00 Pm</span>
                     </li>
                     <li>
-                      Sunday <span className="pull-right">Closed</span>
+                      Sunday <span className="pull-right">9.00 Am - 9.00 Pm</span>
                     </li>
                   </ul>
                 </div>

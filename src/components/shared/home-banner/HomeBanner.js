@@ -42,7 +42,7 @@ function HomeBanner() {
                 backgroundImage: `url(${slide2})`,
               }}
             >
-              <div className="carousel-caption d-none d-md-block">
+              <div className="carousel-caption">
                 <div className="container">
                   <div className="row align-items-center">
                     <div className="col-lg-7">
@@ -68,7 +68,7 @@ function HomeBanner() {
                 backgroundImage: `url(${slide3})`,
               }}
             >
-              <div className="carousel-caption d-none d-md-block">
+              <div className="carousel-caption">
                 <div className="container">
                   <div className="row align-items-center">
                     <div className="col-lg-7">
