@@ -1,7 +1,11 @@
 import React from "react";
 import Slider from "react-slick";
 import "./ServicesItems.css";
-import ServiceImg1 from "../../../images/service1.jpg";
+import BodyMassageCentres from "../../../images/body-massage-centres.jpg";
+import BeautySpas from "../../../images/beauty-spas.jpg";
+import MassageCentresForMen from "../../../images/massage-centres-for-men.jpg";
+import NeckAndShoulder from "../../../images/neck-and-shoulder.jpg";
+import HandsAndFeet from "../../../images/hands-and-feet.jpg";
 
 function ServicesItems() {
   var servicesSlider = {
@@ -12,7 +16,7 @@ function ServicesItems() {
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 480, // Adjust the breakpoint width as needed
+        breakpoint: 1200, // Adjust the breakpoint width as needed
         settings: {
           slidesToShow: 3, // Number of slides to show at this breakpoint
         }
@@ -26,7 +30,7 @@ function ServicesItems() {
       {
         breakpoint: 480, // Adjust the breakpoint width as needed
         settings: {
-          slidesToShow: 1, // Number of slides to show at this breakpoint
+          slidesToShow: 2, // Number of slides to show at this breakpoint
         }
       }
     ]
@@ -35,35 +39,35 @@ function ServicesItems() {
   const serviceItemsData = [
     {
       id: 1,
-      image: ServiceImg1,
+      image: BodyMassageCentres,
       title: "Body Massage Centres",
       description:
         "Revitalize, Rebalance, Relax – Your Journey to Wellness Begins at Our Body Massage Centers.",
     },
     {
       id: 2,
-      image: ServiceImg1,
+      image: BeautySpas,
       title: "Beauty Spas",
       description:
         "Indulge, Unwind, Glow. Our Beauty Spas are Your Haven of Tranquility, Where Well-being and Beauty Intertwine",
     },
     {
       id: 3,
-      image: ServiceImg1,
+      image: MassageCentresForMen,
       title: "Massage Centres For Men",
       description:
         "Men's Oasis: Elevate Well-being at Our Massage Centers, Where Rest and Revitalization Define the Experience.",
     },
     {
       id: 4,
-      image: ServiceImg1,
+      image: NeckAndShoulder,
       title: "Neck and shoulder",
       description:
         "Relief in Reach: Targeted Neck and Shoulder Massage for Tension Release and Soothing Relaxation.",
     },
     {
       id: 5,
-      image: ServiceImg1,
+      image: HandsAndFeet,
       title: "Hands & Feet",
       description:
         "Pamper Your Hands and Feet: Indulgent Treatments for Ultimate Relaxation and Rejuvenation. Discover Bliss Today.",

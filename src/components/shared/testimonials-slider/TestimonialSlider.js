@@ -10,6 +10,26 @@ function TestimonialSlider() {
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1200, // Adjust the breakpoint width as needed
+        settings: {
+          slidesToShow: 3, // Number of slides to show at this breakpoint
+        }
+      },
+      {
+        breakpoint: 768, // Adjust the breakpoint width as needed
+        settings: {
+          slidesToShow: 2, // Number of slides to show at this breakpoint
+        }
+      },
+      {
+        breakpoint: 480, // Adjust the breakpoint width as needed
+        settings: {
+          slidesToShow: 1, // Number of slides to show at this breakpoint
+        }
+      }
+    ]
   };
 
   const testiData = [
