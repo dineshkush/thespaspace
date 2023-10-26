@@ -74,9 +74,9 @@ function Header(props) {
           <div className="row">
             <div className="col-lg-12">
               <nav className="navbar navbar-expand-lg">
-                <a className="navbar-brand" href="#home">
+                <p className="navbar-brand" onClick={() => scrollToSection("Home", 120)}>
                   <img src={Logo} alt="The Spa Space" /> <h1>The Spa Space</h1>
-                </a>
+                </p>
                 {/* Mobile Toggle Button */}
                 <button
                   className="navbar-toggler"

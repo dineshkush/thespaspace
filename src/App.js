@@ -9,9 +9,9 @@ const emailId = 'Aarushiyadavrao@gmail.com';
 const address = 'Scf-87&88, Sector 14 Main Rd, DLF Colony, Sector 14, Gurugram, Haryana 122001';
 const addressLink = 'https://maps.app.goo.gl/L1yfqnuaLP6T4sez9';
 const addressSecond = '1st Floor, Banni City Centre, BF 26, Sector 63, Gurugram, Haryana 122102';
-const addressSecondLink = 'https://maps.app.goo.gl/L1yfqnuaLP6T4sez9';
+const addressSecondLink = 'https://maps.app.goo.gl/b3QqScmXpTGNGqdQ6';
 const addressThird = 'bus stand, Shop no 9 10 Ground Floor Bicholiya Market, near Dharuhera, Dharuhera, Haryana 122106';
-const addressThirdLink = 'https://maps.app.goo.gl/L1yfqnuaLP6T4sez9';
+const addressThirdLink = 'https://maps.app.goo.gl/QKc586iUiznoYByo7';
 
 const socialMedia = [
   "https://www.facebook.com/thespaspacegurgaon",

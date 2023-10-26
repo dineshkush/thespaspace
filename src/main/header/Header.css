@@ -60,16 +60,18 @@
 .header_area nav {
     padding: 4px 0px;
 }
-.header_area a.navbar-brand {
+.header_area .navbar-brand {
     padding: 0;
     margin-right: 0;
     display: flex;
     align-items: center;
+    margin-bottom: 0px;
+    cursor: pointer;
 }
 .header_area img {
     width: 60px;
 }
-.header_area a.navbar-brand h1 {
+.header_area p.navbar-brand h1 {
     font-size: 34px;
     font-weight: 700 !important;
     line-height: 50px;
@@ -100,7 +102,7 @@
     .top_header {
         display: none;
     }
-    .header_area a.navbar-brand h1 {
+    .header_area .navbar-brand h1 {
         display: none;
     }
 }
