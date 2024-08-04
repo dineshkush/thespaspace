@@ -6,7 +6,7 @@ import Gallery from '../gallery/Gallery'
 import Contact from '../contact/Contact'
 import Testimonials from '../testimonials/Testimonials'
 
-function Home({phone, email, address, addressLink, addressSecond, addressSecondLink, addressThird, addressThirdLink}) { 
+function Home({phone, email, address, addressLink, addressSecond, addressSecondLink, addressThird, addressThirdLink, addressForth, addressForthLink}) { 
 
   return (
     <div>
@@ -15,7 +15,7 @@ function Home({phone, email, address, addressLink, addressSecond, addressSecondL
       <Services />
       <Gallery />
       <Testimonials />
-      <Contact phone={phone} email={email} address={address} addressLink={addressLink} addressSecond={addressSecond} addressSecondLink={addressSecondLink} addressThird={addressThird} addressThirdLink={addressThirdLink} />
+      <Contact phone={phone} email={email} address={address} addressLink={addressLink} addressSecond={addressSecond} addressSecondLink={addressSecondLink} addressThird={addressThird} addressThirdLink={addressThirdLink} addressForth={addressForth} addressForthLink={addressForthLink} />
     </div>
   )
 }

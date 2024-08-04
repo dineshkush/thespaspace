@@ -4,7 +4,7 @@ import LocationIcon from "../../images/location-icon.png";
 import PhoneIcon from "../../images/phone-icon.png";
 import EmailIcon from "../../images/email-icon.png";
 
-function Contact({phone, email, address, addressLink, addressSecond, addressSecondLink, addressThird, addressThirdLink}) {
+function Contact({phone, email, address, addressLink, addressSecond, addressSecondLink, addressThird, addressThirdLink, addressForth, addressForthLink}) {
   return (
     <>
       <section className="conatct_sec" id="Contact">
@@ -35,9 +35,10 @@ function Contact({phone, email, address, addressLink, addressSecond, addressSeco
                   </div>
                   <div className="contact_details">
                     <h4>Address</h4>
-                    <p><a href={addressLink} target="_blank" without rel="noreferrer">{address}</a></p>
-                    <p><a href={addressSecondLink} target="_blank" without rel="noreferrer">{addressSecond}</a></p>
-                    <p><a href={addressThirdLink} target="_blank" without rel="noreferrer">{addressThird}</a></p>
+                    <p><a href={addressLink} target="_blank" without rel="noreferrer">{address}</a> <br /><a href="tel:+919990748347"><strong style={{color: "#fff"}}>+919990748347</strong></a></p>
+                    <p><a href={addressSecondLink} target="_blank" without rel="noreferrer">{addressSecond}</a> <br /><a href="tel:9718748347"><strong style={{color: "#fff"}}>9718748347</strong></a></p>
+                    <p><a href={addressThirdLink} target="_blank" without rel="noreferrer">{addressThird}</a> <br /><a href="tel:7027748347"><strong style={{color: "#fff"}}>7027748347</strong></a></p>
+                    <p><a href={addressForthLink} target="_blank" without rel="noreferrer">{addressForth}</a> <br /><a href="tel:7027348347"><strong style={{color: "#fff"}}>7027348347</strong></a></p>
                   </div>
                 </div>
 
